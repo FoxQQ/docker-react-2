@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import React from "react"; 
 
 async function getData() {
-    const data = await fetch('http://api:4000')
+    const data = await fetch('/api/data')
             .then((res) => {
                 return res.json()
             })
